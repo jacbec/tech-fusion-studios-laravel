@@ -1,0 +1,408 @@
+/********** Global Styling **********/
+@font-face {
+    font-family: "open-sans-light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Open-Sans/OpenSans-Light.ttf");
+}
+
+html,
+body {
+    font-size: 1em;
+    font-family: "open-sans-light", sans-serif;
+    color: #000;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    color: #663399;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/********** Header Styling **********/
+.header {
+    top: 0;
+    height: 26.5625em;
+    background-color: #663399;
+}
+
+.header a img {
+    width: 250px;
+    padding-top: 75px;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.25em;
+}
+
+/********** Services Styling **********/
+.content {
+    padding: 0;
+    margin: 0;
+}
+
+/*.content .box {
+    padding: 25px 0;
+    background-size: 200% 200%;
+    -webkit-transition: background-position 200ms, color 200ms linear,
+        border-color 200ms linear;
+    -moz-transition: background-position 200ms, color 200ms linear,
+        border-color 200ms linear;
+    -ms-transition: background-position 200ms, color 200ms linear,
+        border-color 200ms linear;
+    -o-transition: background-position 200ms, color 200ms linear,
+        border-color 200ms linear;
+    transition: background-position 200ms, color 200ms linear,
+        border-color 200ms linear;
+}
+
+.content .box:hover {
+    background-image: linear-gradient(to right, #663399 50%, #fff 50%);
+    background-position: 100% 0;
+} */
+
+.content .box {
+    color: #663399;
+    padding: 25px 0;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box:hover {
+    color: #fff;
+    background-color: #663399;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box i {
+    color: #663399;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box h3 {
+    color: #663399;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box p {
+    color: #fff;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box:hover i {
+    color: #fff;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box:hover h3 {
+    color: #fff;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .box:hover p {
+    color: #fff;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.content .section-heading h2 {
+    color: #663399;
+}
+
+.content .section-heading i {
+    color: #663399;
+    padding-bottom: 5px;
+}
+
+.content .section-heading hr {
+    background-color: rgba(102, 51, 153, 0.25);
+}
+
+.content .col-md-6 p {
+    font-size: 1.125em;
+    padding-bottom: 5px;
+}
+
+/********** Timeline Styling **********/
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.timeline li:before,
+.timeline li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline li:after {
+    clear: both;
+}
+
+.timeline li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline li .timeline-image {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 3px solid #663399;
+    border-radius: 100%;
+    background-color: #663399;
+}
+
+.timeline li .timeline-panel {
+    position: relative;
+    float: right;
+    text-align: left;
+    width: 100%;
+    padding: 0 20px 0 100px;
+}
+
+.timeline li .timeline-panel h4 {
+    color: #663399;
+}
+
+.timeline li .timeline-panel hr {
+    background-color: rgba(102, 51, 153, 0.25);
+}
+
+.timeline li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 20px 0 100px;
+}
+
+.timeline li.timeline-inverted .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline li.timeline-inverted .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline .timeline-body p {
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline li .timeline-panel {
+        float: left;
+        text-align: right;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+    }
+
+    .timeline li.timeline-inverted .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline li {
+        min-height: 170px;
+    }
+
+    .timeline li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+
+    .timeline li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+
+    .timeline li.timeline-inverted .timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+/********** Contact Form Styling **********/
+.contact {
+    background-color: #663399;
+}
+
+.contact .section-heading {
+    color: #fff;
+}
+
+.contact .form-group {
+    margin-bottom: 1.5625em;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    color: #000;
+    padding: 1.25em;
+}
+
+.contact .form-group input.form-control {
+    height: auto;
+}
+
+.contact .form-group textarea.form-control {
+    height: 15.8125em;
+}
+
+.contact .form-control:hover,
+.contact .form-control:focus {
+    border-color: #663399;
+    box-shadow: none;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    transition: all 0.75s;
+}
+
+.contact::-webkit-input-placeholder,
+.contact:-moz-placeholder,
+.contact::-moz-placeholder,
+.contact:-ms-input-placeholder {
+    font-family: "open-sans-reg", "sans-serif";
+    color: #ddd;
+}
+
+.contact .text-danger {
+    color: #e74c3c;
+}
+
+.contact .btn:focus {
+    outline: 0;
+}
+
+.contact .btn-xl {
+    font-family: "open-sans-light", sans-serif;
+    font-size: 1.125em;
+    color: #663399;
+    padding: 1.25em 2.5em;
+    margin-bottom: 3.125em;
+    border-color: #fff;
+    border-radius: 0.1875em;
+    background-color: #fff;
+}
+
+.contact .btn-xl:hover {
+    color: #000;
+    border-color: #663399;
+    background-color: #fff;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    transition: all 0.75s;
+}
+
+.contact .flexible-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 21.875em;
+    overflow: hidden;
+}
+
+.contact .flexible-container iframe,
+.contact .flexible-container object,
+.contact .flexible-container embed {
+    width: 100%;
+    padding: 0 1.25em 1.25em 1.25em;
+}
+
+/********** Parsley Styling **********/
+.parsley-errors-list {
+    color: #e74c3c;
+    margin: 2px 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9em;
+    opacity: 0;
+}
+
+.parsley-errors-list.filled {
+    opacity: 1;
+}
+
+/********** Extra Styling **********/
+.section-heading {
+    padding-top: 25px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
