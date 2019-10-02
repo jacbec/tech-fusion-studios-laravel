@@ -6,8 +6,11 @@ http://techfusionstudios.com/
 
 # Login
 
-newbie@example.com Password+1
-admin@example.com Password+1
+email = newbie@example.com
+
+email = admin@example.com 
+
+password = Password+1
 
 # Create
 
