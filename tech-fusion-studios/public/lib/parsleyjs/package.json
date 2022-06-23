@@ -91,7 +91,7 @@
     "gulp-uglify": "^1.2.0",
     "inputevent": "*",
     "isparta": "~3.0.3",
-    "jsdom": "^9.2",
+    "jsdom": "^16.5",
     "mocha": "^2.1.0",
     "moment": "*",
     "run-sequence": "^1.0.2",
